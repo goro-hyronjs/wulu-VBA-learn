@@ -44,6 +44,7 @@ VBA代表Visual Basic for Applications，这是一种来自Microsoft的事件驱
 ### 代码快速扫盲
 #### 注释
 任何以单引号(')或者关键字"REM"开头的语句都被视为注释。以下是注释的一个例子。
+
 ```
 ' This Script is invoked after successful login 
 REM This Script is written to Validate the Entered Input 
@@ -68,6 +69,7 @@ Const MyPara As Type = xxx
 
 #### 消息框
 ```MsgBox(prompt[,buttons][,title][,helpfile,context])```
+
 prompt - 必需的参数。在对话框中显示为消息的字符串。提示的最大长度大约为1024个字符。 如果消息扩展为多行，则可以使用每行之间的回车符(Chr(13))或换行符(Chr(10))来分隔行。
 buttons - 可选参数。一个数字表达式，指定要显示的按钮的类型，要使用的图标样式，默认按钮的标识以及消息框的形式。如果留空，则按钮的默认值为0。
 title - 可选参数。 显示在对话框的标题栏中的字符串表达式。 如果标题留空，应用程序名称将被放置在标题栏中。
@@ -76,6 +78,7 @@ Context - 可选参数。一个数字表达式，用于标识由帮助作者分�
 
 #### 输入框
 ```InputBox(prompt[,title][,default][,xpos][,ypos][,helpfile,context])```
+
 Prompt - 必需的参数。 在对话框中显示为消息的字符串。提示的最大长度大约为1024个字符。 如果消息扩展为多行，则可以使用每行之间的回车符(Chr(13))或换行符(Chr(10))来分隔行。
 title - 一个可选参数。显示在对话框的标题栏中的字符串表达式。如果标题留空，应用程序名称将被放置在标题栏中。
 default - 一个可选参数。用户希望显示的文本框中的默认文本。
